@@ -1,13 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BaseScreenComponent } from './components/base-screen/base-screen.component';
+import { CellphoneComponent } from './components/cellphone/cellphone.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BaseScreenComponent,
+    CellphoneComponent
   ],
   imports: [
     BrowserModule,
