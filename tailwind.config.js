@@ -17,7 +17,7 @@ module.exports = {
                 mustard: '#E1AD01',
             },
             fontFamily: {
-                sans: ['Bai Jamjuree', 'sans-serif'],
+                sans: ['Rubik', 'sans-serif'],
             },
         },
     },
